@@ -46,34 +46,34 @@ Libraries:
 Loaded the dataset (Housing.csv) into a Pandas DataFrame and inspected it using .info() and .describe() to understand data types, column structure, and missing values.
 
 - Step 2️ - Data Cleaning
-- Checked for and confirmed there were no missing or duplicate values.
-- Ensured all features were numerical and suitable for regression.
-- Dropped unnecessary columns like ‘Address’ since it was non-numeric and irrelevant for prediction.
+  - Checked for and confirmed there were no missing or duplicate values.
+  - Ensured all features were numerical and suitable for regression.
+  - Dropped unnecessary columns like ‘Address’ since it was non-numeric and irrelevant for prediction.
 
 - Step 3️ - Exploratory Data Analysis (EDA)
-- Analyzed the correlation between features and the target variable (Price).
-- Used heatmaps and distribution plots to visualize relationships and data trends.
-- Identified key predictors such as Average Area Income, House Age, and Area Population that strongly influence house prices.
+ - Analyzed the correlation between features and the target variable (Price).
+ - Used heatmaps and distribution plots to visualize relationships and data trends.
+ - Identified key predictors such as Average Area Income, House Age, and Area Population that strongly influence house prices.
 
 - Step 4️ - Feature Selection
 Selected relevant numerical features:
-- Avg. Area Income
-- Avg. Area House Age
-- Avg. Area Number of Rooms
-- Avg. Area Number of Bedrooms
-- Area Population
+ - Avg. Area Income
+ - Avg. Area House Age
+ - Avg. Area Number of Rooms
+ - Avg. Area Number of Bedrooms
+ - Area Population
 These were used as independent variables to predict the target variable Price.
 
 - Step 5️ - Model Building
-- Split the dataset into training (80%) and testing (20%) subsets.
-- Trained a Linear Regression model using Scikit-learn’s LinearRegression() class.
-- Predicted house prices on the test dataset and compared them with actual values.
+ - Split the dataset into training (80%) and testing (20%) subsets.
+ - Trained a Linear Regression model using Scikit-learn’s LinearRegression() class.
+ - Predicted house prices on the test dataset and compared them with actual values.
 
 - Step 6️ - Model Evaluation
-- Evaluated the model using the following metrics:
-- R² Score – measures how well the model explains the variance in house prices
-- Mean Squared Error (MSE) – quantifies the average squared difference between predicted and actual values
-- Visualized Actual vs Predicted Prices using a scatter plot and analyzed regression coefficients to understand feature importance.
+ - Evaluated the model using the following metrics:
+ - R² Score – measures how well the model explains the variance in house prices
+ - Mean Squared Error (MSE) – quantifies the average squared difference between predicted and actual values
+ - Visualized Actual vs Predicted Prices using a scatter plot and analyzed regression coefficients to understand feature importance.
 
 ## Key Learnings
 
